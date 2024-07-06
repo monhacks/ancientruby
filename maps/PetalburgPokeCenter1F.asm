@@ -1,12 +1,12 @@
 	const_def 2 ; object constants
 	const PETALBURGPOKECENTER1F_NURSE
 
-PetalburgPokecenter1F_MapScripts:
+PetalburgPokeCenter1F_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-PetalburgPokecenter1FNurseScript:
+PetalburgPokeCenter1FNurseScript:
 	jumpstd pokecenternurse
 	
 PetalburgPokecentreLassScript:
@@ -127,7 +127,7 @@ PetalburgPokecentreFisherText:
 	cont "wizard!"
 	done
 
-PetalburgPokecenter1F_MapEvents:
+PetalburgPokeCenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
@@ -140,7 +140,7 @@ PetalburgPokecenter1F_MapEvents:
 	db 0 ; bg events
 
 	db 4 ; object events
-	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PetalburgPokecenter1FNurseScript, -1
+	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PetalburgPokeCenter1FNurseScript, -1
 	object_event  3,  3, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, -1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PetalburgPokecentreLassScript, -1
 	object_event  6,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, -1, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PetalburgPokecentreYoungsterScript, -1
 	object_event  1,  2, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PetalburgPokecentreFisherScript, -1

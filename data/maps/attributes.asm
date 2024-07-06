@@ -445,13 +445,13 @@ ENDM
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
 	map_attributes MovingTruck, MOVING_TRUCK, $00, 0
-	map_attributes OldalePokecenter1F, OLDALE_POKECENTER_1F, $00, 0
+	map_attributes OldalePokeCenter1F, OLDALE_POKECENTER_1F, $00, 0
 	map_attributes OldaleMart, OLDALE_MART, $00, 0
 	map_attributes OldaleHouse1, OLDALE_HOUSE_1, $00, 0
 	map_attributes OldaleHouse2, OLDALE_HOUSE_2, $00, 0
 	map_attributes PetalburgHouse1, PETALBURG_HOUSE_1, $00, 0
 	map_attributes PetalburgHouse2, PETALBURG_HOUSE_2, $00, 0
-	map_attributes PetalburgPokecenter1F, PETALBURG_POKECENTER_1F, $00, 0
+	map_attributes PetalburgPokeCenter1F, PETALBURG_POKECENTER_1F, $00, 0
 	map_attributes PetalburgMart, PETALBURG_MART, $00, 0
 	map_attributes RivalsRoom, RIVALS_ROOM, $00, 0
 	map_attributes PetalburgGym, PETALBURG_GYM, $00, 0

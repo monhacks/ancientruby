@@ -221,8 +221,8 @@ CianwoodPokecenter1F_Blocks:
 ViridianPokecenter1F_Blocks:
 SaffronPokecenter1F_Blocks:
 CherrygrovePokecenter1F_Blocks:
-OldalePokecenter1F_Blocks:
-PetalburgPokecenter1F_Blocks:
+OldalePokeCenter1F_Blocks:
+PetalburgPokeCenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.ablk"
 
 BetaCinnabarPokemonLabHallway_Blocks:

@@ -1,12 +1,12 @@
 	const_def 2 ; object constants
 	const OLDALEPOKECENTER1F_NURSE
 
-OldalePokecenter1F_MapScripts:
+OldalePokeCenter1F_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-OldalePokecenter1FNurseScript:
+OldalePokeCenter1FNurseScript:
 	jumpstd pokecenternurse
 	
 OldalePokecentreLassScript:
@@ -53,7 +53,7 @@ OldalePokecentreFisherText:
 	line "worry!"
 	done
 
-OldalePokecenter1F_MapEvents:
+OldalePokeCenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
@@ -66,7 +66,7 @@ OldalePokecenter1F_MapEvents:
 	db 0 ; bg events
 
 	db 4 ; object events
-	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OldalePokecenter1FNurseScript, -1
+	object_event  5,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OldalePokeCenter1FNurseScript, -1
 	object_event  1,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OldalePokecentreLassScript, -1
 	object_event  2,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OldalePokecentreGentlemanScript, -1
 	object_event  6,  5, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OldalePokecentreFisherScript, -1
